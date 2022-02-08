@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.forEach(element => eventBtn(element))
 
     // событие отслеживающее ввод в строке инпута 
-    input.addEventListener('input', () => sity = input.value);
+    input.addEventListener('input', (e) => sity = e.target.value);
 
     // событие на отправку данных в форме
     form.addEventListener('submit', (e) => {
