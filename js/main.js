@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // API данные
     const API_KEY = '94d5166542119669e244ca320fde243f';
-    const URL = 'http://api.openweathermap.org/data/2.5/forecast'
+    const URL = 'https://api.openweathermap.org/data/2.5/forecast'
 
     // Получаем элементы со старницы
     const input = document.querySelector('input'); 
