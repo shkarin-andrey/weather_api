@@ -1,0 +1,18 @@
+body {
+    box-sizing: border-box;
+    padding: 100px 0;
+}
+.card {
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
